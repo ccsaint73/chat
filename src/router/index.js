@@ -8,6 +8,10 @@ export default new Router({
     {
       path: '/',
       component: ()=>import('@/pages/home')
-    }
+    },
+    {
+      path: '/login',
+      component: ()=>import('@/pages/login')
+    },
   ]
 })
