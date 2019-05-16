@@ -7,7 +7,29 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: ()=>import('@/pages/home')
+      component: ()=>import('@/pages/root'),
+      children: [
+      	{
+      		path: '/home',
+      		component: ()=>import('@/pages/home')
+      	},
+      	{
+      		path: '/search',
+      		component: ()=>import('@/pages/search')
+      	},
+      	{
+      		path: '/friend',
+      		component: ()=>import('@/pages/friend')
+      	},
+      	{
+      		path: '/setting',
+      		component: ()=>import('@/pages/setting')
+      	},
+      	{
+      		path: '/',
+      		redirect: '/home'
+      	}
+      ]
     },
     {
       path: '/login',

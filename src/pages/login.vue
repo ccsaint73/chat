@@ -20,16 +20,37 @@
 		  />
 		</van-cell-group>
 		
-		<van-button type="info">信息按钮</van-button>
+		<van-button type="info" @click="login">信息按钮</van-button>
 	</div>
 </template>
 
 <script>
+	
+	import qs from 'qs'
+	
 	export default {
 		data(){
 			return {
 				username:'',
 				password:''
+			}
+		},
+		methods: {
+			login(){
+				var url = 'http://api.baxiaobu.com/index.php/home/v1/login';
+				
+				var params = {
+					username:this.username,
+					pwd:this.password
+				}
+				
+				params = qs.stringify(params);
+				
+				this.$axios.post(url, params).then((res)=>{
+					console.log(res)
+					
+					this.$router.push("/")
+				})
 			}
 		}
 	}

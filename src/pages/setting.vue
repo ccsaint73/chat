@@ -1,19 +1,19 @@
 <template>
-	<div class="home">
-		<h1>home</h1>
+	<div class="setting">
+		setting
 	</div>
 </template>
 
 <script>
 	export default {
 		created(){
-			console.log('home created')
+			console.log('setting created')
 		}
 	}
 </script>
 
 <style>
-	.home {
+	.setting {
 		width: 100%;
 	}
 </style>

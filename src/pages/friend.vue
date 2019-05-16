@@ -1,19 +1,19 @@
 <template>
-	<div class="home">
-		<h1>home</h1>
+	<div class="friend">
+		friend
 	</div>
 </template>
 
 <script>
 	export default {
 		created(){
-			console.log('home created')
+			console.log('friend created')
 		}
 	}
 </script>
 
 <style>
-	.home {
+	.friend {
 		width: 100%;
 	}
 </style>

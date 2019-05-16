@@ -1,19 +1,19 @@
 <template>
-	<div class="home">
-		<h1>home</h1>
+	<div class="search">
+		search
 	</div>
 </template>
 
 <script>
 	export default {
 		created(){
-			console.log('home created')
+			console.log('search created')
 		}
 	}
 </script>
 
 <style>
-	.home {
+	.search {
 		width: 100%;
 	}
 </style>
