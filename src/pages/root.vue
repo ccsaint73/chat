@@ -37,6 +37,7 @@
 		position: relative;
 		padding-bottom: 50px;
 		overflow: hidden;
+		box-sizing: border-box;
 	}
 	
 	.mfix {
