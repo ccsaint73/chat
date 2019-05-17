@@ -1,7 +1,10 @@
 <template>
 	<div class="root">
 		
-		<transition name="fade">
+		<transition 
+			enter-active-class="animated zoomIn"
+    		leave-active-class="animated zoomOut mfix"
+			>
 			<keep-alive>
 				<router-view></router-view>
 			</keep-alive>
@@ -36,7 +39,11 @@
 		overflow: hidden;
 	}
 	
-	.fade-enter-active, .fade-leave-active {
+	.mfix {
+		position: absolute;
+	}
+	
+	/*.fade-enter-active, .fade-leave-active {
 		transition: all 1s ease;
 	}
 	
@@ -47,6 +54,6 @@
 	.fade-leave-to {
 		transform: translateX(-100%);
 		position: absolute;
-	}
+	}*/
 	
 </style>
