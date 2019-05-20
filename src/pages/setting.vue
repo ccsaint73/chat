@@ -1,14 +1,51 @@
 <template>
-	<div class="setting">
-		setting
+	<div class="setting" >
+		<van-tabs v-model="active" @change="handleChange">
+		  <van-tab title="标签 1" >
+		  	<Movie :list="list"/>
+		  </van-tab>
+		  <van-tab title="标签 2" >
+		  	<Movie :list="list"/>
+		  </van-tab>
+		  <van-tab title="标签 3"><Movie /></van-tab>
+		  <van-tab title="标签 4"><Movie /></van-tab>
+		</van-tabs>
 	</div>
 </template>
 
-<script>
+<script>	
+	import Movie from '@/components/Movie';
+	
 	export default {
-		created(){
-			console.log('setting created')
-		}
+	  data() {
+	    return {
+	      active: 2,
+	      list: [],
+	      navlist: ['首页',]
+	    };
+	  },
+	  created(){
+		
+	  },
+	  components: {
+	  	Movie,
+	  },
+	  methods: {
+	  	handleChange(){
+	  		
+	  		console.log(this.active)
+	  		
+		  	switch(this.active){
+		  		case 0:
+		  			// 请求接口
+		  			this.list = ['哈利波特1', '哈利波特2']
+		  		break;
+		  		case 1:
+		  			this.list = ['战争']
+		  		break;
+		  	}
+	  	}
+	  }
 	}
 </script>
 
