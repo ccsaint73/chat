@@ -14,7 +14,8 @@
 			  @load="onLoad"
 			>
 			  <van-cell
-			    v-for="item in list"
+			    v-for="(item, index) in list"
+			    :key="index"
 			  >
 			  
 			  	<div>
