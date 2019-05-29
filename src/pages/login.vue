@@ -20,6 +20,8 @@
 		  />
 		</van-cell-group>
 		
+		<div class="ischange?'red':''"></div>
+		
 		<van-button type="info" @click="login">信息按钮</van-button>
 	</div>
 </template>
@@ -35,6 +37,7 @@
 				password:''
 			}
 		},
+		
 		methods: {
 			login(){
 				var url = 'http://api.baxiaobu.com/index.php/home/v1/login';

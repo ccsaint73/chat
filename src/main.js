@@ -7,16 +7,19 @@ import Vant from 'vant';
 import 'vant/lib/index.css';
 import axios from 'axios'
 import 'animate.css'
+import store from './store/index';
 
 Vue.use(Vant);
 
 Vue.config.productionTip = false
+
 Vue.prototype.$axios = axios;
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })

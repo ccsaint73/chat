@@ -1,0 +1,402 @@
+[
+{
+		"tit": "必选品(锅底)",
+		"bool": true,
+		"datainfo": 
+			[{
+			"id":0,
+			"img": "../../../static/3.png",
+			"name": "微辣",
+			"xl": 1754,
+			"hp": 97,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":1,
+			"img": "../../../static/3.png",
+			"name": "中辣",
+			"xl": 869,
+			"hp": 98,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":2,
+			"img": "../../../static/3.png",
+			"name": "特辣",
+			"xl": 150,
+			"hp": 93,
+			"price":5,
+			"values": 0
+			},
+			{
+			"id":3,
+			"img": "../../../static/3.png",
+			"name": "麻辣",
+			"xl": 376,
+			"hp": 100,
+			"price":4.5,
+			"values": 0
+			},
+			{
+			"id":4,
+			"img": "../../../static/3.png",
+			"name": "变态辣",
+			"xl": 676,
+			"hp": 100,
+			"price":5.5,
+			"values": 0
+			}]
+	},
+	{
+		"tit": "热销",
+		"bool": true,
+		"datainfo": 
+			[{
+			"id":5,
+			"img": "../../../static/3.png",
+			"name": "微辣",
+			"xl": 100,
+			"hp": 97,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":6,
+			"img": "../../../static/3.png",
+			"name": "中辣",
+			"xl": 200,
+			"hp": 98,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":7,
+			"img": "../../../static/3.png",
+			"name": "特辣",
+			"xl": 150,
+			"hp": 93,
+			"price":5,
+			"values": 0
+			},
+			{
+			"id":8,
+			"img": "../../../static/3.png",
+			"name": "麻辣",
+			"xl": 250,
+			"hp": 100,
+			"price":4.5,
+			"values": 0
+			},
+			{
+			"id":9,
+			"img": "../../../static/3.png",
+			"name": "变态辣",
+			"xl":300,
+			"hp": 100,
+			"price":5.5,
+			"values": 0
+			}]
+	},
+	{
+		"tit": "锅底必点谢谢!!",
+		"bool": true,
+		"datainfo": 
+			[{
+			"id":10,
+			"img": "../../../static/3.png",
+			"name": "微辣",
+			"xl": 1000,
+			"hp": 97,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":11,	
+			"img": "../../../static/3.png",
+			"name": "中辣",
+			"xl": 2000,
+			"hp": 98,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":12,	
+			"img": "../../../static/3.png",
+			"name": "特辣",
+			"xl": 1500,
+			"hp": 93,
+			"price":5,
+			"values": 0
+			},
+			{
+			"id":13,
+			"img": "../../../static/3.png",
+			"name": "麻辣",
+			"xl": 2500,
+			"hp": 100,
+			"price":4.5,
+			"values": 0
+			},
+			{
+			"id":14,
+			"img": "../../../static/3.png",
+			"name": "变态辣",
+			"xl":3000,
+			"hp": 100,
+			"price":5.5,
+			"values": 0
+			}]
+	},
+	{
+		"tit": "素菜",
+		"bool": true,
+		"datainfo": 
+			[{
+			"id":15,
+			"img": "../../../static/3.png",
+			"name": "微辣",
+			"xl": 10,
+			"hp": 97,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":16,	
+			"img": "../../../static/3.png",
+			"name": "中辣",
+			"xl": 20,
+			"hp": 98,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":17,
+			"img": "../../../static/3.png",
+			"name": "特辣",
+			"xl": 15,
+			"hp": 93,
+			"price":5,
+			"values": 0
+			},
+			{
+			"id":18,	
+			"img": "../../../static/3.png",
+			"name": "麻辣",
+			"xl": 25,
+			"hp": 100,
+			"price":4.5,
+			"values": 0
+			},
+			{
+			"id":19,
+			"img": "../../../static/3.png",
+			"name": "变态辣",
+			"xl":30,
+			"hp": 100,
+			"price":5.5,
+			"values": 0
+			}]
+	},
+	{
+		"tit": "荤菜",
+		"bool": true,
+		"datainfo": 
+			[{
+			"id":20,
+			"img": "../../../static/3.png",
+			"name": "微辣",
+			"xl": 101,
+			"hp": 97,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":21,
+			"img": "../../../static/3.png",
+			"name": "中辣",
+			"xl": 201,
+			"hp": 98,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":22,
+			"img": "../../../static/3.png",
+			"name": "特辣",
+			"xl": 151,
+			"hp": 93,
+			"price":5,
+			"values": 0
+			},
+			{
+			"id":23,
+			"img": "../../../static/3.png",
+			"name": "麻辣",
+			"xl": 251,
+			"hp": 100,
+			"price":4.5,
+			"values": 0
+			},
+			{
+			"id":24,
+			"img": "../../../static/3.png",
+			"name": "变态辣",
+			"xl":301,
+			"hp": 100,
+			"price":5.5,
+			"values": 0
+			}]
+	},
+	{
+		"tit": "单人套餐(含一盒米饭)",
+		"bool": true,
+		"datainfo": 
+			[{
+			"id":25,
+			"img": "../../../static/3.png",
+			"name": "微辣",
+			"xl": 101,
+			"hp": 97,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":26,
+			"img": "../../../static/3.png",
+			"name": "中辣",
+			"xl": 201,
+			"hp": 98,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":27,
+			"img": "../../../static/3.png",
+			"name": "特辣",
+			"xl": 151,
+			"hp": 93,
+			"price":5,
+			"values": 0
+			},
+			{
+			"id":28,
+			"img": "../../../static/3.png",
+			"name": "麻辣",
+			"xl": 251,
+			"hp": 100,
+			"price":4.5,
+			"values": 0
+			},
+			{
+			"id":29,
+			"img": "../../../static/3.png",
+			"name": "变态辣",
+			"xl":301,
+			"hp": 100,
+			"price":5.5,
+			"values": 0
+			}]
+	},
+	{
+		"tit": "双人套餐(含两盒米饭)",
+		"bool": true,
+		"datainfo": 
+			[{
+			"id":30,
+			"img": "../../../static/3.png",
+			"name": "微辣",
+			"xl": 102,
+			"hp": 97,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":31,
+			"img": "../../../static/3.png",
+			"name": "中辣",
+			"xl": 202,
+			"hp": 98,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":32,
+			"img": "../../../static/3.png",
+			"name": "特辣",
+			"xl": 152,
+			"hp": 93,
+			"price":5,
+			"values": 0
+			},
+			{
+			"id":33,
+			"img": "../../../static/3.png",
+			"name": "麻辣",
+			"xl": 252,
+			"hp": 100,
+			"price":4.5,
+			"values": 0
+			},
+			{
+			"id":34,
+			"img": "../../../static/3.png",
+			"name": "变态辣",
+			"xl":302,
+			"hp": 100,
+			"price":5.5,
+			"values": 0
+			}]
+	},
+	{
+		"tit": "主食",
+		"bool": true,
+		"datainfo": 
+			[{
+			"id":35,
+			"img": "../../../static/3.png",
+			"name": "米饭",
+			"xl": 102,
+			"hp": 97,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":36,
+			"img": "../../../static/3.png",
+			"name": "糯米饭",
+			"xl": 202,
+			"hp": 98,
+			"price": 4.5,
+			"values": 0
+			},
+			{
+			"id":37,
+			"img": "../../../static/3.png",
+			"name": "甜饭",
+			"xl": 152,
+			"hp": 93,
+			"price":5,
+			"values": 0
+			},
+			{
+			"id":38,	
+			"img": "../../../static/3.png",
+			"name": "八宝饭",
+			"xl": 252,
+			"hp": 100,
+			"price":4.5,
+			"values": 0
+			},
+			{
+			"id":39,
+			"img": "../../../static/3.png",
+			"name": "皮蛋粥",
+			"xl":302,
+			"hp": 100,
+			"price":5.5,
+			"values": 0
+			}]
+	}
+]
