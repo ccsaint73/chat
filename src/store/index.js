@@ -1,31 +1,16 @@
 import Vuex from 'vuex';
 import Vue from 'vue';
+import axios from 'axios';
+
+import cart from './cart/index'
+import home from './home/home'
+import login from './login/login'
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-	state: {
-		name:'周维',
-		list:[]
-	},
-	mutations: {
-		getFoodList(state, list){
-//			console.log('mutations', list)
-			state.list = list;
-		}
-	},
-	getters: {
-		list(state){
-			
-			state.list.forEach((item)=>{
-				item.datainfo.forEach((subItem)=>{
-					subItem.count = 0;
-				})
-			})
-			
-//			console.log(state.list)
-			
-			return state.list;
-		}
+	modules: {
+		cart: cart,
+	
 	}
 })

@@ -34,6 +34,9 @@ export default new Router({
     {
       path: '/login',
       component: ()=>import('@/pages/login')
-    },
+    },{
+    	path: '/test',
+      component: ()=>import('@/pages/test')
+    }
   ]
 })
