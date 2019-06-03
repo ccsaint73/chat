@@ -2,7 +2,11 @@
 	<div class="setting" >
 		<van-tabs v-model="active" @change="handleChange">
 		  <van-tab title="标签 1" >
-		  	<Movie :list="list"/>
+		  	<Movie :list="list">
+				<div class="out">
+					这是外部传入的标签
+				</div>		  		
+		  	</Movie>
 		  </van-tab>
 		  <van-tab title="标签 2" >
 		  	<Movie :list="list"/>
@@ -19,7 +23,7 @@
 	export default {
 	  data() {
 	    return {
-	      active: 2,
+	      active: 0,
 	      list: [],
 	      navlist: ['首页',]
 	    };
@@ -52,5 +56,9 @@
 <style>
 	.setting {
 		width: 100%;
+	}
+	
+	.out {
+		color: deeppink;
 	}
 </style>

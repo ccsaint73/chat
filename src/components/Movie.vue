@@ -5,6 +5,15 @@
 				{{item}}
 			</li>
 		</ul>
+		
+		<div>
+			<p>外边传进来的标签在下面     通过slot插槽</p>
+			
+			<slot>
+				
+			</slot>
+		</div>
+
 	</div>
 </template>
 
