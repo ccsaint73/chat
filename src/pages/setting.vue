@@ -4,7 +4,7 @@
 		  <van-tab title="标签 1" >
 		  	<Movie :list="list">
 				<div class="out">
-					这是外部传入的标签
+					这是内部传入的标签
 				</div>		  		
 		  	</Movie>
 		  </van-tab>
